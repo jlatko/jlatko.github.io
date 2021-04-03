@@ -3,8 +3,10 @@ Run: `brew install node`\
 Run: `npm start`\
 Open [http://localhost:3000](http://localhost:3000)
 
-## Building
-Run: `npm run build` and push to github
+## Building and deploying on gihub pages
+Run: `npm run build` 
+Move build out: `mv build/* ./`
+Push changes to github
 
 ## Code explanation
 - see `src/App.css` for styles and `src/App.js` for the base component
