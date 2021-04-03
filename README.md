@@ -3,7 +3,8 @@ Run: `brew install node`\
 Run: `npm start`\
 Open [http://localhost:3000](http://localhost:3000)
 
-
+## Building
+Run: `npm run build` and push to github
 
 ## Code explanation
 - see `src/App.css` for styles and `src/App.js` for the base component
