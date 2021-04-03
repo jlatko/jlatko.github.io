@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# QUICK INSTRUCTIONS
+Run: `brew install node`\
+Run: `npm start`\
+Open [http://localhost:3000](http://localhost:3000)
+
+
+
+## Code explanation
+- see `src/App.css` for styles and `src/App.js` for the base component
+- `src/components`:
+    - `WordCloud.js` root component containing texts and input
+    - `TextInput.js` handles text input, shows/hides on click/keypress (hides only on esc)
+    - `WordItem.js` handles single item, moves on its own
+
+# ORIGINAL README: Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
